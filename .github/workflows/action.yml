@@ -11,5 +11,5 @@ jobs:
         uses: actions/hello-world-javascript-action@v1
         with:
           who-to-great: harsha
-      - name: Grt the output timw
+      - name: Grt the output time
         run: echo"${{ steps.hello.outputs.time}}"
